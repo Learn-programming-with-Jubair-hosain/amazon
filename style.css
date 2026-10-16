@@ -5,3 +5,37 @@
     box-sizing: border-box;
     font-family: Arial;
 }
+.width{
+    width: 1600px;
+}
+/********* nav-head style *********/
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f1111;
+    color: #ffffff;
+    padding: 10px;
+}
+.nav-head img{
+    width: 100px;
+}
+.nav-head div{
+    display: flex;
+    align-items: center;
+}
+/* Nav Footer style */
+.nav-foot{
+    background-color: #232f3e;
+    color: #ffffff;
+    font-size: 12px;
+}
+.nav-footer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-right: 50%;
+}
+.nav-footer div{
+    display: flex;
+}
