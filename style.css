@@ -75,4 +75,75 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
+.see{
+    margin: 100px 0 100px 0;
+    line-height: 40px;
+    text-align: center;
+}
+.see button{
+    border: none;
+    padding: 10px 50px;
+    background-color: gold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/******** Footer Section style **********/
+/* footer{
+    margin-bottom: 100px;
+} */
+.back p{
+    background-color: #37475A;
+    color: #ffffff;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+}
+.part-2{
+    background-color: #232f3E;
+    color: #ffffff;
+}
+.part-2 .container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 300px;
+}
+.part-2 .container div{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+/*********** part-2-footer ***********/
+.part-2-footer img{
+    width: 200px;
+    height: 100px;
+}
+.part-2-footer{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    
+}
+.part-2-footer input, select{
+    padding: 10px 20px;
+    background-color: #232f3E;
+    color: #ffffff;
+    border: 1px solid bisque;
+}
+/********** Part 3  **********/
+.part-3{
+    background-color: #131A22;
+    color: #ffffff;
+}
+.part-3-content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 300px;
+    /* gap: 50px; */
+    text-align: center;
+    line-height: 1.5;
+}
+.part-3-content div{
+    margin: 50px 0;
+}
